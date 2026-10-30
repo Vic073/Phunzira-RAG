@@ -1,0 +1,16 @@
+{"id": "photo-en-en", "category": "en->en", "question": "How do plants make their own food?", "gold_docs": ["photosynthesis-en"], "facts": [["sunlight"], ["water"], ["carbon dioxide"]]}
+{"id": "photo-ny-ny", "category": "ny->ny", "question": "Kodi zomera zimapanga bwanji chakudya chawo?", "gold_docs": ["photosynthesis-ny"], "facts": [["kuwala kwa dzuwa"], ["madzi"], ["carbon dioxide"]]}
+{"id": "photo-en-ny", "category": "en->ny", "question": "Which gas do plants release into the air?", "gold_docs": ["photosynthesis-ny"], "facts": [["oxygen", "okosijeni"]]}
+{"id": "photo-ny-en", "category": "ny->en", "question": "Kodi masamba a zomera amachita chiyani ndi kuwala kwa dzuwa?", "gold_docs": ["photosynthesis-en"], "facts": [["chlorophyll"], ["sunlight"]]}
+{"id": "water-en-en", "category": "en->en", "question": "How do clouds form?", "gold_docs": ["water-cycle-en"], "facts": [["cools", "cool"], ["droplets"]]}
+{"id": "water-ny-ny", "category": "ny->ny", "question": "Kodi mvula imapangidwa bwanji?", "gold_docs": ["water-cycle-ny"], "facts": [["nthunzi"], ["mitambo"], ["madontho"]]}
+{"id": "water-en-ny", "category": "en->ny", "question": "What makes water evaporate?", "gold_docs": ["water-cycle-ny"], "facts": [["kutentha kwa dzuwa", "heat of the sun"]]}
+{"id": "water-ny-en", "category": "ny->en", "question": "Kodi nthunzi imapangidwa bwanji?", "gold_docs": ["water-cycle-en"], "facts": [["heat"], ["sun"]]}
+{"id": "soil-en-en", "category": "en->en", "question": "How do farmers keep soil fertile?", "gold_docs": ["soil-en"], "facts": [["manure"], ["fertiliser"], ["rotate"]]}
+{"id": "soil-ny-ny", "category": "ny->ny", "question": "Kodi alimi amateteza bwanji nthaka kuti isakokoloke?", "gold_docs": ["soil-ny"], "facts": [["mitengo"], ["makwawa"]]}
+{"id": "soil-en-ny", "category": "en->ny", "question": "What is soil erosion?", "gold_docs": ["soil-ny"], "facts": [["mvula", "rain"], ["mphepo", "wind"]]}
+{"id": "soil-ny-en", "category": "ny->en", "question": "Nthaka yachonde imakhala ndi chiyani?", "gold_docs": ["soil-en"], "facts": [["nutrients"]]}
+{"id": "lake-en-en", "category": "en->en", "question": "Which countries share Lake Malawi?", "gold_docs": ["lake-malawi-en"], "facts": [["Mozambique"], ["Tanzania"]]}
+{"id": "lake-ny-ny", "category": "ny->ny", "question": "Kodi anthu ku Malawi amapindula bwanji ndi nyanja?", "gold_docs": ["lake-malawi-ny"], "facts": [["usodzi"], ["madzi"]]}
+{"id": "lake-en-ny", "category": "en->ny", "question": "How long is Lake Malawi?", "gold_docs": ["lake-malawi-ny"], "facts": [["580"]]}
+{"id": "lake-ny-en", "category": "ny->en", "question": "Nyanja ya Malawi ili ndi nsomba zotani?", "gold_docs": ["lake-malawi-en"], "facts": [["cichlid"], ["mbuna"]]}

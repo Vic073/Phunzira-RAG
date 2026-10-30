@@ -1,0 +1,570 @@
+{
+  "bm25": {
+    "summary": {
+      "overall": {
+        "n": 16,
+        "hit@1": 0.5625,
+        "hit@3": 0.625,
+        "mrr": 0.59375,
+        "fact_recall": 0.40625,
+        "citation_precision": 0.9
+      },
+      "by_category": {
+        "en->en": {
+          "n": 4,
+          "hit@1": 1.0,
+          "hit@3": 1.0,
+          "mrr": 1.0,
+          "fact_recall": 1.0,
+          "citation_precision": 1.0
+        },
+        "ny->ny": {
+          "n": 4,
+          "hit@1": 0.75,
+          "hit@3": 1.0,
+          "mrr": 0.875,
+          "fact_recall": 0.375,
+          "citation_precision": 0.75
+        },
+        "en->ny": {
+          "n": 4,
+          "hit@1": 0.25,
+          "hit@3": 0.25,
+          "mrr": 0.25,
+          "fact_recall": 0.0,
+          "citation_precision": 1.0
+        },
+        "ny->en": {
+          "n": 4,
+          "hit@1": 0.25,
+          "hit@3": 0.25,
+          "mrr": 0.25,
+          "fact_recall": 0.25,
+          "citation_precision": 1.0
+        }
+      }
+    },
+    "records": [
+      {
+        "id": "photo-en-en",
+        "category": "en->en",
+        "question": "How do plants make their own food?",
+        "ranked_docs": [
+          "photosynthesis-en",
+          "soil-en",
+          "lake-malawi-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Photosynthesis is the process by which green plants make their own food. Plants use sunlight, water and carbon dioxide to make sugar and oxygen. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "photo-ny-ny",
+        "category": "ny->ny",
+        "question": "Kodi zomera zimapanga bwanji chakudya chawo?",
+        "ranked_docs": [
+          "photosynthesis-ny",
+          "soil-ny",
+          "lake-malawi-ny"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Photosynthesis ndi njira imene zomera zobiriwira zimapangira chakudya chawo. Zomera zimagwiritsa ntchito kuwala kwa dzuwa, madzi ndi mpweya wa carbon dioxide kuti zipange shuga ndi mpweya wa okosijeni. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "photo-en-ny",
+        "category": "en->ny",
+        "question": "Which gas do plants release into the air?",
+        "ranked_docs": [],
+        "hit@1": 0.0,
+        "hit@3": 0.0,
+        "mrr": 0.0,
+        "answer": "I could not find this in the study notes.",
+        "fact_recall": 0.0,
+        "citation_precision": null
+      },
+      {
+        "id": "photo-ny-en",
+        "category": "ny->en",
+        "question": "Kodi masamba a zomera amachita chiyani ndi kuwala kwa dzuwa?",
+        "ranked_docs": [],
+        "hit@1": 0.0,
+        "hit@3": 0.0,
+        "mrr": 0.0,
+        "answer": "Sindinapeze yankho la funso ili m'zolemba zophunzirira.",
+        "fact_recall": 0.0,
+        "citation_precision": null
+      },
+      {
+        "id": "water-en-en",
+        "category": "en->en",
+        "question": "How do clouds form?",
+        "ranked_docs": [
+          "water-cycle-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "The water cycle describes how water moves between the Earth's surface and the atmosphere. High in the air the vapour cools and condenses into tiny droplets that form clouds. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "water-ny-ny",
+        "category": "ny->ny",
+        "question": "Kodi mvula imapangidwa bwanji?",
+        "ranked_docs": [
+          "soil-ny",
+          "water-cycle-ny"
+        ],
+        "hit@1": 0.0,
+        "hit@3": 1.0,
+        "mrr": 0.5,
+        "answer": "Imapangidwa ndi tizidutswa ting'onoting'ono ta miyala, zotsalira za zomera ndi nyama zakufa, mpweya ndi madzi. Kukokoloka kwa nthaka kumachitika pamene mvula yamphamvu kapena mphepo itenga gawo la pamwamba, choncho kubzala mitengo ndi kupanga makwawa kumathandiza kuiteteza. [1]",
+        "fact_recall": 0.0,
+        "citation_precision": 0.0
+      },
+      {
+        "id": "water-en-ny",
+        "category": "en->ny",
+        "question": "What makes water evaporate?",
+        "ranked_docs": [],
+        "hit@1": 0.0,
+        "hit@3": 0.0,
+        "mrr": 0.0,
+        "answer": "I could not find this in the study notes.",
+        "fact_recall": 0.0,
+        "citation_precision": null
+      },
+      {
+        "id": "water-ny-en",
+        "category": "ny->en",
+        "question": "Kodi nthunzi imapangidwa bwanji?",
+        "ranked_docs": [],
+        "hit@1": 0.0,
+        "hit@3": 0.0,
+        "mrr": 0.0,
+        "answer": "Sindinapeze yankho la funso ili m'zolemba zophunzirira.",
+        "fact_recall": 0.0,
+        "citation_precision": null
+      },
+      {
+        "id": "soil-en-en",
+        "category": "en->en",
+        "question": "How do farmers keep soil fertile?",
+        "ranked_docs": [
+          "soil-en",
+          "water-cycle-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Fertile soil contains nutrients that plants need to grow. Farmers in Malawi add manure or fertiliser to restore nutrients, and they rotate crops such as maize and groundnuts to keep the soil healthy. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "soil-ny-ny",
+        "category": "ny->ny",
+        "question": "Kodi alimi amateteza bwanji nthaka kuti isakokoloke?",
+        "ranked_docs": [
+          "soil-ny",
+          "water-cycle-ny"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Nthaka ndi gawo la pamwamba pa dziko pomwe zomera zimamera. Alimi ku Malawi amathira manyowa kapena feteleza kuti nthaka ibwezeretse zakudya zake, ndipo amasinthasintha mbewu monga chimanga ndi mtedza kuti nthaka ikhale yathanzi. [1]",
+        "fact_recall": 0.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "soil-en-ny",
+        "category": "en->ny",
+        "question": "What is soil erosion?",
+        "ranked_docs": [],
+        "hit@1": 0.0,
+        "hit@3": 0.0,
+        "mrr": 0.0,
+        "answer": "I could not find this in the study notes.",
+        "fact_recall": 0.0,
+        "citation_precision": null
+      },
+      {
+        "id": "soil-ny-en",
+        "category": "ny->en",
+        "question": "Nthaka yachonde imakhala ndi chiyani?",
+        "ranked_docs": [],
+        "hit@1": 0.0,
+        "hit@3": 0.0,
+        "mrr": 0.0,
+        "answer": "Sindinapeze yankho la funso ili m'zolemba zophunzirira.",
+        "fact_recall": 0.0,
+        "citation_precision": null
+      },
+      {
+        "id": "lake-en-en",
+        "category": "en->en",
+        "question": "Which countries share Lake Malawi?",
+        "ranked_docs": [
+          "lake-malawi-en",
+          "water-cycle-en",
+          "soil-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Lake Malawi is the third largest lake in Africa and borders Malawi, Mozambique and Tanzania. The lake is about 580 kilometres long and holds more species of fish than any other lake in the world, mostly colourful cichlids known locally as mbuna. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "lake-ny-ny",
+        "category": "ny->ny",
+        "question": "Kodi anthu ku Malawi amapindula bwanji ndi nyanja?",
+        "ranked_docs": [
+          "lake-malawi-ny",
+          "water-cycle-ny",
+          "soil-ny"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Nyanja ya Malawi ndi nyanja yachitatu pakukula ku Africa ndipo imadutsa m'malire a dziko la Malawi, Mozambique ndi Tanzania. Anthu ambiri ku Malawi amadalira nyanjayi pa chakudya ndi ndalama kudzera mu usodzi. [1]",
+        "fact_recall": 0.5,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "lake-en-ny",
+        "category": "en->ny",
+        "question": "How long is Lake Malawi?",
+        "ranked_docs": [
+          "lake-malawi-ny",
+          "soil-ny"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Nyanja ya Malawi ndi nyanja yachitatu pakukula ku Africa ndipo imadutsa m'malire a dziko la Malawi, Mozambique ndi Tanzania. Anthu ambiri ku Malawi amadalira nyanjayi pa chakudya ndi ndalama kudzera mu usodzi. [1]",
+        "fact_recall": 0.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "lake-ny-en",
+        "category": "ny->en",
+        "question": "Nyanja ya Malawi ili ndi nsomba zotani?",
+        "ranked_docs": [
+          "lake-malawi-en",
+          "soil-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Lake Malawi is the third largest lake in Africa and borders Malawi, Mozambique and Tanzania. The lake is about 580 kilometres long and holds more species of fish than any other lake in the world, mostly colourful cichlids known locally as mbuna. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      }
+    ]
+  },
+  "bm25+glossary": {
+    "summary": {
+      "overall": {
+        "n": 16,
+        "hit@1": 0.9375,
+        "hit@3": 1.0,
+        "mrr": 0.96875,
+        "fact_recall": 0.625,
+        "citation_precision": 0.9375
+      },
+      "by_category": {
+        "en->en": {
+          "n": 4,
+          "hit@1": 1.0,
+          "hit@3": 1.0,
+          "mrr": 1.0,
+          "fact_recall": 1.0,
+          "citation_precision": 1.0
+        },
+        "ny->ny": {
+          "n": 4,
+          "hit@1": 0.75,
+          "hit@3": 1.0,
+          "mrr": 0.875,
+          "fact_recall": 0.375,
+          "citation_precision": 0.75
+        },
+        "en->ny": {
+          "n": 4,
+          "hit@1": 1.0,
+          "hit@3": 1.0,
+          "mrr": 1.0,
+          "fact_recall": 0.5,
+          "citation_precision": 1.0
+        },
+        "ny->en": {
+          "n": 4,
+          "hit@1": 1.0,
+          "hit@3": 1.0,
+          "mrr": 1.0,
+          "fact_recall": 0.625,
+          "citation_precision": 1.0
+        }
+      }
+    },
+    "records": [
+      {
+        "id": "photo-en-en",
+        "category": "en->en",
+        "question": "How do plants make their own food?",
+        "ranked_docs": [
+          "photosynthesis-en",
+          "soil-en",
+          "lake-malawi-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Photosynthesis is the process by which green plants make their own food. Plants use sunlight, water and carbon dioxide to make sugar and oxygen. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "photo-ny-ny",
+        "category": "ny->ny",
+        "question": "Kodi zomera zimapanga bwanji chakudya chawo?",
+        "ranked_docs": [
+          "photosynthesis-ny",
+          "soil-ny",
+          "lake-malawi-ny"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Photosynthesis ndi njira imene zomera zobiriwira zimapangira chakudya chawo. Zomera zimagwiritsa ntchito kuwala kwa dzuwa, madzi ndi mpweya wa carbon dioxide kuti zipange shuga ndi mpweya wa okosijeni. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "photo-en-ny",
+        "category": "en->ny",
+        "question": "Which gas do plants release into the air?",
+        "ranked_docs": [
+          "photosynthesis-ny",
+          "soil-ny"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Photosynthesis ndi njira imene zomera zobiriwira zimapangira chakudya chawo. Zomera zimagwiritsa ntchito kuwala kwa dzuwa, madzi ndi mpweya wa carbon dioxide kuti zipange shuga ndi mpweya wa okosijeni. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "photo-ny-en",
+        "category": "ny->en",
+        "question": "Kodi masamba a zomera amachita chiyani ndi kuwala kwa dzuwa?",
+        "ranked_docs": [
+          "photosynthesis-en",
+          "soil-en",
+          "water-cycle-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Photosynthesis is the process by which green plants make their own food. Plants use sunlight, water and carbon dioxide to make sugar and oxygen. [1]",
+        "fact_recall": 0.5,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "water-en-en",
+        "category": "en->en",
+        "question": "How do clouds form?",
+        "ranked_docs": [
+          "water-cycle-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "The water cycle describes how water moves between the Earth's surface and the atmosphere. High in the air the vapour cools and condenses into tiny droplets that form clouds. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "water-ny-ny",
+        "category": "ny->ny",
+        "question": "Kodi mvula imapangidwa bwanji?",
+        "ranked_docs": [
+          "soil-ny",
+          "water-cycle-ny"
+        ],
+        "hit@1": 0.0,
+        "hit@3": 1.0,
+        "mrr": 0.5,
+        "answer": "Imapangidwa ndi tizidutswa ting'onoting'ono ta miyala, zotsalira za zomera ndi nyama zakufa, mpweya ndi madzi. Kukokoloka kwa nthaka kumachitika pamene mvula yamphamvu kapena mphepo itenga gawo la pamwamba, choncho kubzala mitengo ndi kupanga makwawa kumathandiza kuiteteza. [1]",
+        "fact_recall": 0.0,
+        "citation_precision": 0.0
+      },
+      {
+        "id": "water-en-ny",
+        "category": "en->ny",
+        "question": "What makes water evaporate?",
+        "ranked_docs": [
+          "water-cycle-ny",
+          "photosynthesis-ny",
+          "lake-malawi-ny",
+          "soil-ny"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Kayendedwe ka madzi kamafotokoza momwe madzi amayendera pakati pa nthaka ndi mlengalenga. Kutentha kwa dzuwa kumapangitsa madzi a m'nyanja ndi m'mitsinje kusanduka nthunzi ndikukwera m'mwamba. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "water-ny-en",
+        "category": "ny->en",
+        "question": "Kodi nthunzi imapangidwa bwanji?",
+        "ranked_docs": [
+          "water-cycle-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "The water cycle describes how water moves between the Earth's surface and the atmosphere. The heat of the sun causes water in lakes, rivers and the ocean to evaporate and rise as water vapour. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "soil-en-en",
+        "category": "en->en",
+        "question": "How do farmers keep soil fertile?",
+        "ranked_docs": [
+          "soil-en",
+          "water-cycle-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Fertile soil contains nutrients that plants need to grow. Farmers in Malawi add manure or fertiliser to restore nutrients, and they rotate crops such as maize and groundnuts to keep the soil healthy. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "soil-ny-ny",
+        "category": "ny->ny",
+        "question": "Kodi alimi amateteza bwanji nthaka kuti isakokoloke?",
+        "ranked_docs": [
+          "soil-ny",
+          "water-cycle-ny"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Nthaka ndi gawo la pamwamba pa dziko pomwe zomera zimamera. Alimi ku Malawi amathira manyowa kapena feteleza kuti nthaka ibwezeretse zakudya zake, ndipo amasinthasintha mbewu monga chimanga ndi mtedza kuti nthaka ikhale yathanzi. [1]",
+        "fact_recall": 0.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "soil-en-ny",
+        "category": "en->ny",
+        "question": "What is soil erosion?",
+        "ranked_docs": [
+          "soil-ny",
+          "water-cycle-ny"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Nthaka ndi gawo la pamwamba pa dziko pomwe zomera zimamera. Imapangidwa ndi tizidutswa ting'onoting'ono ta miyala, zotsalira za zomera ndi nyama zakufa, mpweya ndi madzi. [1]",
+        "fact_recall": 0.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "soil-ny-en",
+        "category": "ny->en",
+        "question": "Nthaka yachonde imakhala ndi chiyani?",
+        "ranked_docs": [
+          "soil-en",
+          "water-cycle-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Soil is the top layer of the ground where plants grow. It is made of tiny pieces of rock, dead plant and animal matter, air and water. [1]",
+        "fact_recall": 0.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "lake-en-en",
+        "category": "en->en",
+        "question": "Which countries share Lake Malawi?",
+        "ranked_docs": [
+          "lake-malawi-en",
+          "water-cycle-en",
+          "soil-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Lake Malawi is the third largest lake in Africa and borders Malawi, Mozambique and Tanzania. The lake is about 580 kilometres long and holds more species of fish than any other lake in the world, mostly colourful cichlids known locally as mbuna. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "lake-ny-ny",
+        "category": "ny->ny",
+        "question": "Kodi anthu ku Malawi amapindula bwanji ndi nyanja?",
+        "ranked_docs": [
+          "lake-malawi-ny",
+          "water-cycle-ny",
+          "soil-ny"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Nyanja ya Malawi ndi nyanja yachitatu pakukula ku Africa ndipo imadutsa m'malire a dziko la Malawi, Mozambique ndi Tanzania. Anthu ambiri ku Malawi amadalira nyanjayi pa chakudya ndi ndalama kudzera mu usodzi. [1]",
+        "fact_recall": 0.5,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "lake-en-ny",
+        "category": "en->ny",
+        "question": "How long is Lake Malawi?",
+        "ranked_docs": [
+          "lake-malawi-ny",
+          "water-cycle-ny",
+          "soil-ny"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Nyanja ya Malawi ndi nyanja yachitatu pakukula ku Africa ndipo imadutsa m'malire a dziko la Malawi, Mozambique ndi Tanzania. Anthu ambiri ku Malawi amadalira nyanjayi pa chakudya ndi ndalama kudzera mu usodzi. [1]",
+        "fact_recall": 0.0,
+        "citation_precision": 1.0
+      },
+      {
+        "id": "lake-ny-en",
+        "category": "ny->en",
+        "question": "Nyanja ya Malawi ili ndi nsomba zotani?",
+        "ranked_docs": [
+          "lake-malawi-en",
+          "water-cycle-en",
+          "soil-en"
+        ],
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "mrr": 1.0,
+        "answer": "Lake Malawi is the third largest lake in Africa and borders Malawi, Mozambique and Tanzania. The lake is about 580 kilometres long and holds more species of fish than any other lake in the world, mostly colourful cichlids known locally as mbuna. [1]",
+        "fact_recall": 1.0,
+        "citation_precision": 1.0
+      }
+    ]
+  }
+}

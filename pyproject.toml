@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phunzira"
+version = "0.1.0"
+description = "Bilingual (Chichewa/English) RAG study assistant with a built-in evaluation harness"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "uvicorn>=0.29"]
+llm = ["anthropic>=0.40"]
+dense = ["sentence-transformers>=3.0", "numpy>=1.26"]
+dev = ["pytest>=8", "httpx>=0.27", "numpy>=1.26", "fastapi>=0.110"]
+
+[project.scripts]
+phunzira = "phunzira.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
