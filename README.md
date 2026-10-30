@@ -25,7 +25,8 @@ Most RAG demos are English-only and never measure anything. Students and teacher
 ## Quickstart
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
+python -m venv .venv && .venv\Scripts\activate
+
 pip install -e ".[dev,api]"          # add ,llm for Claude and ,dense for embeddings
 
 phunzira ask "How do plants make their own food?"
